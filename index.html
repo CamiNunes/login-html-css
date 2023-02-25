@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login HtmlCss</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+  <section class="wrapper">
+    <div class="form signup">
+      <header>Sign up</header>
+      <form action="#">
+        <input type="text" placeholder="Full name" required />
+        <input type="text" placeholder="Email adrdress" required />
+        <input type="password" placeholder="Password" required />
+        <div class="checkbox">
+          <input type="checkbox" id="signuoCheckbox"/>
+          <label for="signuoCheckbox">Eu aceito os termos e condições.</label>
+        </div>
+        <input type="submit" value="Sign up" />
+      </form>
+    </div>
+
+    <div class="form login">
+      <header>Login</header>
+      <form action="#">
+        <input type="text" placeholder="Email adrdress" required />
+        <input type="password" placeholder="Password" required />
+        <a href="">Lembrar senha?</a>
+        <input type="submit" value="Login" />
+      </form>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
